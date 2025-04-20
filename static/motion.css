@@ -1,0 +1,28 @@
+.container {
+    position: relative; /* Important for positioning animations */
+}
+
+.graphic {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute; /* Important for animations */
+    top: 50px;
+    left: 50px;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 200px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.graphic.animate { /* Apply this class to start the animation */
+    animation: move 2s infinite; /* Adjust duration and iterations as needed */
+}
