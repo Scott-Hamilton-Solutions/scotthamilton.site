@@ -29,6 +29,10 @@
     color: #ffffff;
 
   }
+
+  h1 {
+    text-align: center;
+  }
   
   p {
     line-height: 1.4;
