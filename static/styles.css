@@ -34,10 +34,19 @@
     text-align: center;
   }
   
+  nav {
+    text-align: center;
+
+  }
+
   p {
     line-height: 1.4;
   }
   
+  .frmbdr-a {
+    frameBorder="4";
+  }
+
   a {
     outline-color: transparent;
   }
