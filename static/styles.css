@@ -43,14 +43,19 @@
     line-height: 1.4;
   }
   
-  .frmbdr-a {
-    frameBorder="4";
+  iframe {
+    frameborder="4";
   }
 
   a {
     outline-color: transparent;
   }
   
+iframe {
+  background-color: white;
+  align-content: center;
+}
+
   a:link {
     color: #ffffff;
     text-decoration: none;
